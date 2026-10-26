@@ -1,0 +1,69 @@
+1.	A class consists of 40 students who have secured different grades in an examination. The grades are classified as F, E, D, C, B, A, and S, where F represents the lowest grade and S represents the highest grade.
+The number of students who secured each grade is given below.
+Grade	Number of Students
+F	3
+E	4
+D	5
+C	8
+B	9
+A	7
+S	4
+Total	40
+Develop a Python program to perform the following tasks:
+1.	Store the grades and corresponding number of students in suitable data structures.
+2.	Draw a pie chart to represent the percentage distribution of students across the seven grades.
+3.	Display the grade labels and percentage values on the pie chart.
+4.	Draw a bar chart to compare the number of students who secured each grade.
+5.	Label the X-axis as Grades and the Y-axis as Number of Students.
+6.	Display the exact number of students above each bar.
+7.	Add suitable chart titles, legends, and axis labels.
+8.	Identify the grade secured by the maximum and minimum number of students.
+9.	Display the percentage of students who secured grades A and S combined.
+
+
+
+2 A college instructor wants to analyze the academic performance of 40 students in a class. After evaluating the students' examination results, the instructor classifies them into seven grades: F, E, D, C, B, A, and S.
+The student grade information is stored in a CSV (Comma-Separated Values) file named student_grades.csv. The instructor wants to develop a Python application that reads the data directly from the CSV file and generates appropriate graphical representations.
+Develop a Python program to perform the following tasks:
+1.	Create a CSV file named student_grades.csv containing two columns: Grade and Number_of_Students.
+2.	Store the number of students who secured each of the seven grades in the CSV file. The total number of students must be exactly 40.
+3.	Read the CSV file using Python's pandas library.
+4.	Validate the input data to ensure that all seven grades are present and the total number of students is 40.
+5.	Calculate the percentage of students who secured each grade.
+6.	Generate a pie chart showing the percentage distribution of students across all seven grades.
+7.	Generate a bar chart comparing the number of students who secured each grade.
+8.	Display appropriate chart titles, labels, legends, and percentage values.
+9.	Display the number and percentage of students who secured each grade.
+10.	Identify the grade with the highest and lowest number of students.
+11.	Save both charts as image files for future reference.
+
+
+
+3)	In modern intelligent systems, identifying objects in digital images is widely used in smart surveillance, healthcare, autonomous vehicles, industrial automation, and educational applications. A knowledge-based system can identify objects by analyzing their visual features and matching the extracted information with a predefined knowledge base containing facts, properties, categories, and logical rules.
+
+Consider a smart classroom application in which an instructor wants to identify common objects such as a laptop, book, chair, bottle, mobile phone, and table from an image. Develop a Python-based knowledge-driven object identification system that accepts an input image, analyzes its visual characteristics, identifies the object, and uses a knowledge base to determine its category, properties, and possible function.
+
+The system should perform the following operations:
+a.	Accept an image file in JPG, JPEG, or PNG format.
+b.	Read and display the input image using Python.
+c.	Extract or analyze visual information from the image using a suitable image recognition technique.
+d.	Identify the object and retrieve its corresponding information from a predefined knowledge base.
+e.	Apply rule-based reasoning to determine the object's category and function.
+f.	Display the identified object name, category, properties, and description.
+g.	Display an appropriate message if the object cannot be identified confidently.
+h.	Test the system using different images and evaluate its correctness.
+
+
+
+
+4)	Design and implement a Python program that identifies and extracts the registration number printed on a car's number plate from a given input image using image processing techniques, Optical Character Recognition (OCR), and a knowledge-based expert system.
+The system should accept an image containing a car and its number plate, locate the number plate region, preprocess the cropped image to improve text visibility, and extract the registration number using an OCR engine. A knowledge base containing the applicable vehicle registration format, character patterns, and validation rules should then be used to verify the extracted text and determine whether it follows the expected registration format.
+The system should perform the following tasks:
+5)	Input Image: Read a car image from a specified image file in JPG, JPEG, or PNG format.
+6)	Number Plate Detection: Identify and crop the number plate region using image processing or a pretrained object detection model.
+7)	Image Preprocessing: Convert the cropped plate to grayscale, reduce noise, improve contrast, and apply thresholding to enhance character visibility.
+8)	Text Extraction: Use an OCR engine such as Tesseract OCR to extract the registration characters from the number plate.
+9)	Knowledge Base Construction: Create a knowledge base containing the applicable registration-number format, expected character patterns, and validation rules.
+10)	Rule-Based Validation: Apply expert-system rules to check the extracted text against the expected registration format, allowing for common OCR errors where appropriate.
+11)	Result Display: Display the original image, cropped number plate, extracted registration number, and validation result.
+12)	Error Handling: If the number plate cannot be detected or the extracted text does not satisfy the validation rules, display a suitable error message and allow the image to be checked again.
